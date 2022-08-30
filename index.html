@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kasper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <img src="images/logo-white.png" alt="" class="logo">
+            <div class="toggler"><span class="bar"></span></div>
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">portfolio</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">services</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">pricing</a></li>
+                    <li class="nav-item"><a href="#contact-us" class="nav-link">contact</a></li>
+                </ul>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i><input type="text" placeholder="search" autofocus class="nav-search">
+            </nav>
+        </div>
+    </header>
+<main>
+    <!-- Hero section -->
+    <section class="hero section-bg">
+        <div class="info-card">
+            <div class="info-card-content">
+                <h1 class="info-card-title">hello world!<br>we are kasper we make art</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum deleniti d</p>
+            </div>
+        </div>
+        <i class="fa-solid fa-chevron-right chevron-right"></i><i class="fa-solid fa-chevron-left chevron-left"></i>
+        <ul class="radio-buttons">
+            <li class="radio"></li>
+            <li class="radio active"></li>
+            <li class="radio"></li>
+        </ul>
+    </section>
+    <!-- Services section -->
+    <section class="services" id="services">
+        <div class="container">
+        <div class="section-header">
+            <h2 class="title">services</h2>
+            <p class="subtitle">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-box">
+                <i class="fa-solid fa-tv service-icon"></i>
+                <div class="service-body">
+                    <h2 class="service-title">Vorem amet intuitive</h2>
+                    <p class="service-text">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-pen-ruler service-icon"></i>
+                <div class="service-body">
+                    <h2 class="service-title">Vorem amet intuitive</h2>
+                    <p class="service-text">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-camera service-icon"></i>
+                <div class="service-body">
+                    <h2 class="service-title">Vorem amet intuitive</h2>
+                    <p class="service-text">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-gear service-icon"></i>
+                <div class="service-body">
+                    <h2 class="service-title">Vorem amet intuitive</h2>
+                    <p class="service-text">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="section-bg features">
+        <img src="images/Phones.png" alt="" class="features-img">
+        <div class="info-card">
+            <h2 class="info-card-title">Our design comes with...</h2>
+            <ul class="features-list">
+                <li class="features-item">responsive design</li>
+                <li class="features-item">modern and clean design</li>
+                <li class="features-item">clean code</li>
+                <li class="features-item">browser friendly</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">portfolio</h2>
+                <p class="subtitle">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <ul class="gallery-filter">
+                <li class="btn btn-primary">all</li>
+                <li>app</li>
+                <li>photography</li>
+                <li>web</li>
+                <li>print</li>
+            </ul>
+            <div class="gallery">
+                <div class="img-container">
+                    <img src="images/art1.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">photography</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/art2.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">web</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/art3.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">app</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/art4.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">photography</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/art5.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">app</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/art6.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">web</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/art7.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">photography</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="images/art8.jpg" alt="" class="gallery-img">
+                    <div class="img-detail">
+                        <h3 class="img-title">awesome image</h3>
+                        <p class="img-type">print</p>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn btn-primary">more</a>
+        </div>
+    </section>
+
+    <!-- Video section -->
+    <section class="video">
+        <div class="info-card">
+            <h2 class="info-card-title">super awesome video here</h2>
+            <p class="info-card-text">it's all you need</p>
+            <a href="" class="btn">see more</a>
+        </div>
+        <video src="videos/mixkit-hands-of-a-man-playing-on-a-computer-43527.mp4" autoplay muted loop></video>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">about us</h2>
+                <p class="subtitle">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+            <img src="images/screens.png" alt="illustration  " class="about-img">
+        </div>
+    </section>
+
+    <!-- Stats section -->
+    <section class="stats section-bg" id="stats">
+        <div class="container">
+            <div class="info-card">
+                <ul class="stats-list">
+                    <li class="stats-box">
+                        <div class="icon-container"><i class="stats-icon fa-solid fa-mug-hot fa-fw"></i></div>
+                        <h3 class="stats-number">2,500</h3>
+                        <p class="stats-type">coffe drinks</p>
+                    </li>
+                    <li class="stats-box">
+                        <div class="icon-container"><i class="stats-icon fa-solid fa-folder fa-fw"></i></div>
+                        <h3 class="stats-number">256</h3>
+                        <p class="stats-type">completed projects</p>
+                    </li>
+                    <li class="stats-box">
+                        <div class="icon-container"><i class="stats-icon fa-solid fa-envelope fa-fw"></i></div>
+                        <h3 class="stats-number">1,743</h3>
+                        <p class="stats-type">mail sent</p>
+                    </li>
+                    <li class="stats-box">
+                        <div class="icon-container"><i class="stats-icon fa-solid fa-trophy fa-fw"></i></div>
+                        <h3 class="stats-number">17</h3>
+                        <p class="stats-type">awards received</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials and skills -->
+    <section class="testimonials-skills" id="testimonials-skills">
+        <div class="container">
+
+            <div class="testimonials" id="testimonials">
+                <div class="section-header">
+                    <h3 class="title">testimonials</h3>
+                    <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, quis. Quod doloribus suscipit porro at.</p>
+                </div>
+                <div class="testimonial-box">
+                    <img src="images/profile-pic1.jpg" alt="employee" class="testimonial-author-img">
+                    <div class="testimonial-body">
+                        <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi maxime enim rem molestiae error libero.</blockquote>
+                        <p class="testimonial-author">John Doe,<span class="author-title">ceo</span></p>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <img src="images/profile-pic2.jpg" alt="employee" class="testimonial-author-img">
+                    <div class="testimonial-body">
+                        <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi maxime enim rem molestiae error libero.</blockquote>
+                        <p class="testimonial-author">John Doe,<span class="author-title">ceo</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills" id="skills">
+            <div class="section-header">
+                <h3 class="title">skills</h3>
+                <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, quis. Quod doloribus suscipit porro at.</p>
+            </div>
+            <ul class="skill-list">
+                <li class="skill">
+                    <p class="skill-name">adobe</p>
+                    <div class="skill-progress-bar">
+                    <div class="skill-progress" data-percentage="90%" style="width:90%"></div>
+                </li>
+                <li class="skill">
+                    <p class="skill-name">html & css</p>
+                    <div class="skill-progress-bar">
+                    <div class="skill-progress" data-percentage="93%" style="width:93%"></div>
+                </li>
+                <li class="skill">
+                    <p class="skill-name">javascript</p>
+                    <div class="skill-progress-bar">
+                        <div class="skill-progress" data-percentage="87%" style="width:87%"></div>
+                </li>
+                <li class="skill"><p class="skill-name">php</p><div class="skill-progress-bar"><div class="skill-progress" data-percentage="85%" style="width:85%"></div></li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+    <!-- Quote secrtion -->
+
+    <section class="quote section-bg">
+        <div class="info-card">
+            <h2 class="quote-header">"ACCUMSAN ID CURABITUR ET PORTITOR MAURIS BLANDIT DOLOR LOREM SOME EST OUR DONEC STIN LORTIOS"</h2>
+            <p class="author">John Doe</p>
+        </div>
+    </section>
+
+    <!-- Pricing section -->
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="title">Pricing</h3>
+                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.a!</p>
+            </div>
+            <div class="pricing-container">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="plan-name">basic</p>
+                        <span class="currency">$</span><span class="plan-price">19</span><span class="plan-cycle">/mo</span>
+                    </header>
+                    <div class="card-body">
+                        <ul class="card-feature-list">
+                            <li class="card-feature-item">feature 1</li>
+                            <li class="card-feature-item">feature 2</li>
+                            <li class="card-feature-item">feature 3</li>
+                            <li class="card-feature-item">feature 4</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer"><a href="#" class="btn btn-outline">buy now</a></footer>
+                </div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="plan-name">premium</p>
+                        <span class="currency">$</span><span class="plan-price">29</span><span class="plan-cycle">/mo</span>
+                    </header>
+                    <div class="card-body">
+                        <ul class="card-feature-list">
+                            <li class="card-feature-item">feature 1</li>
+                            <li class="card-feature-item">feature 2</li>
+                            <li class="card-feature-item">feature 3</li>
+                            <li class="card-feature-item">feature 4</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer"><a href="#" class="btn btn-outline">buy now</a></footer>
+                </div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="plan-name">pro</p>
+                        <span class="currency">$</span><span class="plan-price">39</span><span class="plan-cycle">/mo</span>
+                    </header>
+                    <div class="card-body">
+                        <ul class="card-feature-list">
+                            <li class="card-feature-item">feature 1</li>
+                            <li class="card-feature-item">feature 2</li>
+                            <li class="card-feature-item">feature 3</li>
+                            <li class="card-feature-item">feature 4</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer"><a href="#" class="btn btn-outline">buy now</a></footer>
+                </div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="plan-name">platinum</p>
+                        <span class="currency">$</span><span class="plan-price">49</span><span class="plan-cycle">/mo</span>
+                    </header>
+                    <div class="card-body">
+                        <ul class="card-feature-list">
+                            <li class="card-feature-item">feature 1</li>
+                            <li class="card-feature-item">feature 2</li>
+                            <li class="card-feature-item">feature 3</li>
+                            <li class="card-feature-item">feature 4</li>
+                        </ul>
+                    </div>
+                    <footer class="card-footer"><a href="#" class="btn btn-outline">buy now</a></footer>
+                </div>
+            </div>
+
+            <footer class="pricing-footer">
+            <p>Contact us if you have special request</p>
+            <a href="#" class="btn btn-primary">contact us</a>
+            </footer>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section class="newsletter section-bg">
+        <div class="container">
+            <div class="newsletter-form">
+            <i class="fas fa-envelope mail-icon"></i>
+            <input type="email" class="newsletter-mail" placeholder="your email">
+            <input type="submit" class="btn btn-primary" value="subscribe">
+            </div>
+
+            <p class="newsletter-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aperiam!</p>
+        </div>
+    </section>
+
+    <!-- contact us -->
+
+    <section class="contact-us" id="contact-us">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title">contact us</h2>
+            <p class="subtitle">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+
+        <div class="contact-conrainer">
+        <form action="" class="contact-form">
+            <input type="text"  class="name" placeholder="your name">
+            <input type="email" name="" id="" placeholder="your email">
+            <textarea placeholder="your message"></textarea>
+            <input type="submit" value="send message" class="btn btn-primary">
+        </form>
+
+        <div class="contact-info">
+            <div class="phone-numbers">
+            <h3>get in touch</h3>
+            <p>+00 123.456.789</p>
+            <p>+00 123.456.789</p>
+            </div>
+        <div class="address">
+    
+            <h3>where are</h3>
+            <p>awesome address 17</p>
+            <p class="upper">new york 20</p>
+            <p>123-456-89</p>
+            <p>USA</p>
+        </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer section-bg">
+    <div class="container">
+        <img src="images/Logo-white.png" alt="logo" class="logo">
+        <h2 class="footer-heading">we are social</h2>
+        <ul class="social-list">
+        <li class="social-link"><a href=""><i class="fa fa-brands fa-facebook-f fa-fw"></i></a></li>
+        <li class="social-link"><a href="#"><i class="fa fa-brands fa-twitter fa-fw"></i></a></li>
+        <li class="social-link"><a href="#"><i class="fa fa-brands fa-instagram fa-fw"></i></a></li>
+        <li class="social-link"><a href=""><i class="fa fa-brands fa-google fa-fw"></i></a></li>
+        </ul>
+
+        <p class="copyrights">&copy; 2022 <span>kasper</span> all rights reserved</p>
+    </div>
+    </footer>
+
+    </main>
+</body>
+<script>
+const toggler = document.querySelector(".main-header");
+const searchIcon = document.querySelector(".search-icon");
+function expand() {
+this.classList.toggle("expanded");
+}
+toggler.addEventListener("click", expand);
+searchIcon.addEventListener("click", expand);
+</script>
+</html>
