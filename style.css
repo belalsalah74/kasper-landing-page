@@ -81,7 +81,7 @@ section {
     background-position: center;
     background-size: cover;
     position: relative;
-    min-height: 80vh;
+    min-height: 50vh;
     z-index: 10;
 }
 
@@ -237,12 +237,12 @@ p {
 /* Header */
 
 .main-header {
-    padding: 15px 0;
+    padding: 20px 0;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10000000;
+    z-index: 100;
 }
 
 .main-header .container {
@@ -446,6 +446,17 @@ p {
 
 /* Hero */
 
+.top i{
+    display: block;
+    font-size: 40px;
+    border-radius: 50%;
+    color: var(--clr-primary);
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 10000000000;
+}
+
 .hero {
     height: 70vh;
     background-image: url(images/bg-header.jpg);
@@ -608,13 +619,15 @@ p {
 .features .info-card {
     right: 0;
     width: 50%;
+    left: auto;
 }
 
 .features-img {
     max-width: 100%;
     position: absolute;
-    left: 200px;
-    top: 20%;
+    left: 10%;
+    top: 10%;
+    opacity: .95;
 }
 
 .features-item {
@@ -1331,9 +1344,10 @@ blockquote::after {
     margin-bottom: 30px;
 }
 
-.social-link:hover{
+.social-link:hover {
     color: var(--clr-primary);
 }
+
 .copyrights {
     text-transform: capitalize;
 }
